@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Custom Clothing Order</title>
+
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favi.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+  </head>
+
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    
+	<!-- facebook like button script -->  
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=168382456576167";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script> 
+ 
+
+
+  <!-- Navbar
+    ================================================== -->
+<div>
+    <div class="navbar navbar-fixed-top">
+    
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="./index.html">Sunset Traders</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+				<script type="text/javascript" src="./navbar.js"> </script>             
+            </ul>
+          </div>
+
+          <!--View Cart Button -->
+			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+				<input type="hidden" name="cmd" value="_cart">
+				<input type="hidden" name="business" value="6YUGDXA67CALS">
+				<input type="hidden" name="display" value="1">
+				<button class="btn btn-primary btn-mini pull-right" name="submit" disabled="disabled"><i class="icon-shopping-cart icon-white"></i>My Cart</button>
+			</form>
+
+
+        </div>
+      </div>
+    </div>
+</div>
+
+    <div class="container">
+
+
+<!-- Masthead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+
+  <h1><center><img src="assets/img/clothing/clothing_cover.png"></center></h1>
+</header>
+
+	
+	
+	
+<div class="row">
+	<div class="span4">
+	<h3>You've reached our custom order page!</h3>
+	<h4 class="lead">Thank you for inquiring about a special order. I have put together a custom order page to accommodate for this purchase. Please use the "Buy Now" button below to complete the process.</h4>
+	<h4 class="lead">As always, if you have any comments or suggestions, please feel free to let me know.</h4>
+	<h4 class="lead">Sincerely,<br>- Josh Brunner</h4>
+	<hr>
+	</div>
+	<div class="span8">
+	<h1>Thank you!</h1>
+	
+			<div class="span3">
+				<h4>Beetle's T-Shirt [Black]</h4>
+				<img class="thumbnail" src="assets/img/clothing/custom/beetles.jpg">
+				<br>
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="hosted_button_id" value="5Y34RNZMEYK5L">
+					<h4 class="pull-left">XXL - $26.99</h4>				
+					<button class="btn btn-info btn-large pull-right" name="submit" disabled="disabled">Call for Availability</button>
+				</form>
+			</div>
+
+	</div>	
+</div>
+	
+
+   
+
+
+     <!-- Footer
+      ================================================== -->
+		  <footer class="footer">
+			<hr>
+			<div class="fb-like" data-href="https://www.facebook.com/SunsetTraders" data-send="true" data-width="450" data-show-faces="true" data-font="verdana"></div>
+			<hr>		    
+			<p><small>Call: </small><br>(808) 989-1784</p>
+		    <p><small>Email: </small><br><a href="mailto:Aloha@SunsetTradersHawaii.com">Aloha@SunsetTradersHawaii.com</a></p>
+		    <p><small>Visit: </small><br>75-5699 N Alii Drive<br>Kailua Kona, HI 96740</p>
+		    <p class="pull-right"><a href="#">Back to top</a></p>
+		    
+		    <br><br>
+		    <p class="pull-left"><>  <a href="returns.html">Return Policy</a>  <>  <a href="contact.html">Contact</a>  <>  </p>
+		    <p class="pull-right"><small>Built by <a href="https://about.me/joshbrunner" target="_blank">Josh Brunner</a></small></p>      
+		  </footer>
+
+
+
+    </div><!-- /container -->
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="assets/js/application.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34426566-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  </body>
+</html>
